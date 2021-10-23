@@ -14,7 +14,7 @@ export const ToDoList = () => {
 
                 return (
                     <div>
-                        {item.name} - {item.deadline} : { item.isCompleted ? 'DONE' : 'IN-PROGRESS'}
+                        {item.name} - {item.deadline} : { item.isCompleted ? 'IN-PROGRESS' : 'DONE'}
                     </div>
                 )
             })}
