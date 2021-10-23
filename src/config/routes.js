@@ -5,11 +5,11 @@ import { SignInForm } from '../components/SignIn';
 import { TodoAppTimeline } from '../components/TodoAppTimeline';
 
 export const routes = [
-     {
-        path: "/",
-       component: NotFound,
-        label: "Home"
-     },
+    // {
+      //  path: "/",
+      // //component: NotFound,
+      //  label: "Home"
+   //  },
     {
         path: "/timeline",
         component: TodoAppTimeline,
