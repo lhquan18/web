@@ -16,6 +16,7 @@ export const SignInForm = () => {
             <input placeholder="Email" {...email} />
             <br />
             <input placeholder="Password" type="password" {...password} />
+<br />
             <button type="submit">Sign in</button>
         </form>
     );
